@@ -12,6 +12,7 @@
 		CB69465125E0E87600D66121 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB69465025E0E87600D66121 /* ContentView.swift */; };
 		CB69465325E0E87A00D66121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB69465225E0E87A00D66121 /* Assets.xcassets */; };
 		CB69465925E0E87A00D66121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB69465725E0E87A00D66121 /* LaunchScreen.storyboard */; };
+		CB69466A25E0EADF00D66121 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB69466925E0EADF00D66121 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CB69465225E0E87A00D66121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB69465825E0E87A00D66121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB69465A25E0E87A00D66121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB69466925E0EADF00D66121 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				CB69466525E0E8AC00D66121 /* App Lifecycle */,
+				CB69466725E0EA6800D66121 /* View */,
 				CB69466225E0E89100D66121 /* Resources */,
-				CB69465025E0E87600D66121 /* ContentView.swift */,
 			);
 			path = ParallaxEffectSwiftUI;
 			sourceTree = "<group>";
@@ -78,6 +80,15 @@
 				CB69464E25E0E87600D66121 /* SceneDelegate.swift */,
 			);
 			name = "App Lifecycle";
+			sourceTree = "<group>";
+		};
+		CB69466725E0EA6800D66121 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB69465025E0E87600D66121 /* ContentView.swift */,
+				CB69466925E0EADF00D66121 /* HomeView.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB69464D25E0E87600D66121 /* AppDelegate.swift in Sources */,
+				CB69466A25E0EADF00D66121 /* HomeView.swift in Sources */,
 				CB69464F25E0E87600D66121 /* SceneDelegate.swift in Sources */,
 				CB69465125E0E87600D66121 /* ContentView.swift in Sources */,
 			);
